@@ -37,3 +37,12 @@ Raw ADC values are noisy and include a DC offset. To turn this into a stable "st
 
 ### 4. Logic & Feedback
 The calculated RMS value is compared against a defined `threshold`. If the field strength exceeds this limit, the ESP32 triggers the onboard LED (GPIO 2), providing real-time visual feedback of hidden live wires.
+
+
+## 💻 Tech Stack
+
+- **Language:** C++
+- **Framework:** Arduino Framework (ESP32 Core)
+- **Environment:** PlatformIO / VS Code
+- **Hardware:** ESP32 (D0WD-V3)
+- **Tools:** Arduino Serial Plotter (for signal visualization)
